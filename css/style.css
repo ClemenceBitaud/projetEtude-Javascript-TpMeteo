@@ -1,0 +1,94 @@
+body{
+    background-color: white;
+    margin: 0; /*la div prend toute la largeur de la page*/
+}
+h1{
+    font-family: 'Roboto',sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+#home{
+    background-image: url("../image/eclair.jpg");
+    display: flex; /*la div prend la hauteur de la page*/
+    flex-direction: column; /*la div prend la hauteur de la page*/
+    width: 100%;
+    height: 320px;
+    box-shadow:3px 3px 12px #999;
+
+}
+#home_title{
+    align-items: center;
+    justify-content: center;
+}
+#city_search{
+    min-width: 300px;
+    background-color: #fff;
+    opacity: 0.95;
+    text-align: center;
+    padding: 2em;
+    /*align-items: center;
+    justify-content: center;
+    box-shadow:3px 3px 12px #999;*/
+    border-radius:2px;
+}
+.city_text{
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    color: #555;
+}
+/*#city_input{
+    padding: 6px 0 6px 0;
+    background-color: #f5f5f5;
+    border-radius: 2px;
+    width: 100%;
+    border:1px solid #ccc;
+    box-shadow:1px 1px 3px #999;
+}*/
+#city_button{
+    font-family: 'Roboto',sans-serif;
+    /*box-shadow:1px 1px 5px #999;*/
+}
+.centrer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#meteo_data{
+    visibility: hidden;
+    background-color: white;
+    box-shadow:3px 3px 12px #999;
+    padding: 2em;
+    height: 100%;
+}
+/*nav{
+    box-shadow:3px 3px 12px #999;
+}*/
+#footer{
+    height: 50px;
+    position: relative;
+}
+#footer p{
+    position: absolute;
+    bottom: 0;
+    font-size: 15px;
+}
+#info_contact{
+    background-color: white;
+    /*box-shadow:3px 3px 12px #999;*/
+    padding: 1em;
+    color: #555;
+}
+#info_aide{
+    background-color: white;
+    /*box-shadow:3px 3px 12px #999;*/
+    padding:1em;
+}
+#info_aide p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #555;
+}

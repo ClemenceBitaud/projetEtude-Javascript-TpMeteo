@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HOME</title>
+    <script src="../js/meteo.js"></script>
+    <script src="../js/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="all"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <div id="home">
+        <div class="centrer">
+            <div id="home_title"><h1>Bienvenue sur Weath'Earth</h1></div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-light shadow p-3 mb-5 " style="background-color: #f5f5f5;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul  class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="#city_search"> Accueil</a> </li>
+                <li  class="nav-item"><a class="nav-link" href="#info_contact"> Contact &nbsp; &nbsp;</a></li>
+                <li class="nav-item"><a class="nav-link" href="#aide"> Aide</a> </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+
+</header>
+<section>
+    <div class="container">
+        <div class="text-center shadow p-3 mb-5" id="city_search">
+            <p class="city_text">Entrez une ville</p>
+            <div class="input-group mb-3">
+                <input id="city_input" type="text" class="form-control shadow p-3 mb-2"  aria-describedby="basic-addon1" name="ville"><br><br>
+            </div>
+            <button type="button" id="city_button" class="btn btn-outline-secondary mb-2 shadow p-3 mb-2" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" onclick="searchMeteo()">Rechercher <i class="w3-margin-left fa fa-search"></i></button>
+        </div>
+    </div>
+    <br>
+</section>
+<section>
+    <div class="container">
+        <div id="meteo_data" class="text-center shadow p-3 mb-5">
+        </div>
+    </div>
+    <br>
+
+</section>
+<section>
+    <div class="container">
+        <div class="text-center">
+            <p>Quelque chose à suggéré ? Contactez-nous !</p>
+        </div>
+
+        <div class="container">
+            <div id="info_contact" class="text-center shadow p-3 mb-5">
+                <table>
+                    <tr>
+                        <td><i class="fa fa-phone"></i> Tel : </td>
+                        <td>00 01 02 03 04</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-calendar"></i> Mail : </td>
+                        <td>weather.info@weather.com</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div id="aide">
+        <div class="text-center">
+            <p>Besoin d'aide ?</p>
+        </div>
+        <div class="container">
+            <div id="info_aide" class="text-center shadow p-3 mb-5">
+                <p>Weath'Earth est un site qui vous permet de connaître
+                    la météo de votre ville en temps réel.<br>
+                    Entrez une ville dans la barre de recherche puis rechercher.<br>
+                    Pour plus d'information météorologiques, cliquez sur voir plus.<br>
+                    Cliquez sur voir moins pour moins d'information.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div id="footer">
+        <p>Créé par Clémence Bitaud et Martin Barré</p>
+    </div>
+</footer>
+
+</body>
+</html>

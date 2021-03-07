@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0c72b119-31af-4434-8afe-b62050418894" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XADbNA7Xay1bt1jan8XTHUWnOg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cleme\WebstormProjects\tp_meteo_bootsrap\image" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/tp_meteo_bootsrap/html/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c72b119-31af-4434-8afe-b62050418894" name="Default Changelist" comment="" />
+      <created>1580480075328</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580480075328</updated>
+      <workItem from="1580480077441" duration="8688000" />
+      <workItem from="1580576453568" duration="3607000" />
+      <workItem from="1580714593953" duration="35000" />
+      <workItem from="1581084453501" duration="854000" />
+      <workItem from="1581095489603" duration="27000" />
+      <workItem from="1581514271919" duration="632000" />
+      <workItem from="1582059376083" duration="478000" />
+      <workItem from="1582214259439" duration="6000" />
+      <workItem from="1582297274645" duration="970000" />
+      <workItem from="1582306609974" duration="795000" />
+      <workItem from="1582818616744" duration="1023000" />
+      <workItem from="1583135539101" duration="190000" />
+      <workItem from="1583136757314" duration="1637000" />
+      <workItem from="1583255732138" duration="598000" />
+      <workItem from="1583328851514" duration="641000" />
+      <workItem from="1589876043284" duration="2919000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="173" y="183" key="FileChooserDialogImpl" timestamp="1583135558189">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="173" y="183" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583135558189" />
+  </component>
+</project>
